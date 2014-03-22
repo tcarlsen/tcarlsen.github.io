@@ -1,0 +1,5 @@
+name: carlsenindex
+markdown: redcarpet
+pygments: true
+timezone: Europe/Copenhagen
+permalink: /:title

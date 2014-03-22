@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="no margin">
+    <div class="ui main menu inverted">
+      <div class="container">
+        <div class="left menu">
+          <a href="/" class="item"><i class="icon code"></i> {{ site.name }}</a>
+        </div>
+        <div class="right menu">
+          <a class="item" target="_blank" href="http://dk.linkedin.com/in/tcarlsen/"><i class="linkedin icon"></i></a>
+          <a class="item" target="_blank" href="https://twitter.com/tcarlsen"><i class="twitter icon"></i></a>
+          <a class="item" target="_blank" href="https://github.com/tcarlsen"><i class="github icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>

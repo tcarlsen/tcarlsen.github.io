@@ -1,0 +1,12 @@
+---
+layout: default
+title: carlsenindex
+---
+
+{% for post in site.posts %}
+  <div class="ui raised segment">
+    <div class="ui label teal float right">{{ post.date | date_to_string }}</div>
+    <h2 class="ui header no margin"><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt | strip_html }}</p>
+  </div>
+{% endfor %}

@@ -1,0 +1,31 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
+  color: #555;
+  background-color: #eee;
+}
+
+a {
+  color: #009fda;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00baff;
+}
+
+.main.menu {
+  margin-bottom: 40px !important;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.float.right {
+  float: right;
+}
+
+.no.margin {
+  margin: 0;
+}
