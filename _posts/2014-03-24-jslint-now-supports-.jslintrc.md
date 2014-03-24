@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JSLint now supports .jslintrc"
-date:   2014-03-17
+date:   2014-03-24
 category: atom
 ---
 
