@@ -3,3 +3,6 @@ markdown: redcarpet
 pygments: true
 timezone: Europe/Copenhagen
 permalink: /:title
+gems:
+- jekyll-mentions
+- jemoji
