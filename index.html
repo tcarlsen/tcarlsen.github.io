@@ -3,10 +3,17 @@ layout: default
 title: carlsenindex
 ---
 
-{% for post in site.posts %}
-  <div class="ui raised segment">
-    <div class="ui label teal float right">{{ post.date | date_to_string }}</div>
-    <h2 class="ui header no margin"><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt | strip_html }}</p>
+<div class="ui grid">
+  <div class="ten wide column">
+    {% for post in site.posts %}
+      <div class="ui raised segment">
+        <div class="ui label teal float right">{{ post.date | date_to_string }}</div>
+        <h2 class="ui header no margin"><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html }}</p>
+      </div>
+    {% endfor %}
   </div>
-{% endfor %}
+  <div class="six wide column">
+    <iframe src="http://lab.lepture.com/github-cards/card.html?user=tcarlsen" frameborder="0" scrolling="0" width="100%" height="200" allowtransparency></iframe>
+  </div>
+</div>
